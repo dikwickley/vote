@@ -20,9 +20,10 @@ export default function Home({ currentCategoryData, setCurrentCategory }) {
 
       <div className="flex flex-row items-center justify-center mt-20">
         <div className="flex flex-row flex-wrap justify-center   my-3 w-[50%]">
-          {currentCategoryData.nominee.map((item, key) => {
+          {currentCategoryData.nominee.map((item, index) => {
             return (
               <Card
+                key={index}
                 url={`/cid_${
                   currentCategoryData.cid
                 }/${item.name.toLowerCase()}.jpeg`}
