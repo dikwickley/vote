@@ -5,69 +5,217 @@
     "nominee": [
       {
         "name": "Divyaraj Chauhan",
-        "sex": "m",
-        "image": "https://picsum.photos/id/300/500/300"
+        "sex": "m"
       },
       {
         "name": "Jignesh Mahida",
-        "sex": "m",
-        "image": "https://picsum.photos/id/301/500/300"
+        "sex": "m"
       },
       {
         "name": "Dhairya Ambore",
-        "sex": "m",
-        "image": "https://picsum.photos/id/302/500/300"
+        "sex": "m"
       },
       {
         "name": "Aniket Dey",
-        "sex": "m",
-        "image": "https://picsum.photos/id/310/500/300"
+        "sex": "m"
       },
       {
         "name": "Vishali Raina",
-        "sex": "f",
-        "image": "https://picsum.photos/id/304/500/300"
+        "sex": "f"
       },
       {
         "name": "Honey Rathod",
-        "sex": "f",
-        "image": "https://picsum.photos/id/305/500/300"
+        "sex": "f"
       },
       {
         "name": "Amisha Sakhare",
-        "sex": "f",
-        "image": "https://picsum.photos/id/306/500/300"
+        "sex": "f"
       },
       {
         "name": "Anusha Kar",
-        "sex": "f",
-        "image": "https://picsum.photos/id/307/500/300"
+        "sex": "f"
       }
     ]
   },
 
   {
     "cid": 2,
-    "category": "Style Icon Of The Year"
+    "category": "Style Icon Of The Year",
+    "nominee": [
+      {
+        "name": "Aniket Singh Rawat",
+        "sex": "m"
+      },
+      {
+        "name": "Krishh Kalyani",
+        "sex": "m"
+      },
+      {
+        "name": "Swar Shah",
+        "sex": "m"
+      },
+      {
+        "name": "Rishit Thakkar",
+        "sex": "m"
+      },
+      {
+        "name": "Dhvani Tilala",
+        "sex": "f"
+      },
+      {
+        "name": "Dhruvi Parmar",
+        "sex": "f"
+      },
+      {
+        "name": "Janhvi Jani",
+        "sex": "f"
+      },
+      {
+        "name": "Sejal Kumari",
+        "sex": "f"
+      }
+    ]
   },
   {
     "cid": 3,
-    "category": "Rising Star"
+    "category": "Rising Star",
+    "nominee": [
+      {
+        "name": "Om Shukla",
+        "sex": "m"
+      },
+      {
+        "name": "Aditya Pandey",
+        "sex": "m"
+      },
+      {
+        "name": "Chintya Patel",
+        "sex": "f"
+      },
+      {
+        "name": "Yasvi Kachchia",
+        "sex": "f"
+      }
+    ]
   },
   {
     "cid": 4,
-    "category": "Sportsperson Of The Year"
+    "category": "Sportsperson Of The Year",
+    "nominee": [
+      {
+        "name": "Ankit Gayakwad",
+        "sex": "m"
+      },
+      {
+        "name": "Hrushikesh Vegad",
+        "sex": "m"
+      },
+      {
+        "name": "Bhumil Rathod",
+        "sex": "m"
+      },
+      {
+        "name": "Aditya Pandya",
+        "sex": "m"
+      }
+    ]
   },
   {
     "cid": 5,
-    "category": "Innovator Of The Year"
+    "category": "Innovator Of The Year",
+    "nominee": [
+      {
+        "name": "Ayush Prajapati",
+        "sex": "m"
+      },
+      {
+        "name": "Amaan Sheikh",
+        "sex": "m"
+      },
+      {
+        "name": "Jay Vaghani",
+        "sex": "m"
+      },
+      {
+        "name": "Kamlesh Vasoya",
+        "sex": "m"
+      }
+    ]
   },
   {
     "cid": 6,
-    "category": "Mr. and Mrs. Persona"
+    "category": "Mr. and Mrs. Persona",
+    "nominee": [
+      {
+        "name": "Adityarajsinh Parmar",
+        "sex": "m"
+      },
+      {
+        "name": "Abhishek Dey",
+        "sex": "m"
+      },
+      {
+        "name": "Cherish Vaidya",
+        "sex": "m"
+      },
+      {
+        "name": "Prathviraj Singh",
+        "sex": "m"
+      },
+      {
+        "name": "Aastha Gupta",
+        "sex": "f"
+      },
+      {
+        "name": "Raghvi Baloni",
+        "sex": "f"
+      },
+      {
+        "name": "Hemangini Bhatt",
+        "sex": "f"
+      },
+      {
+        "name": "Nitya Parikh",
+        "sex": "f"
+      }
+    ]
   },
   {
     "cid": 7,
-    "category": "Face Of The Year"
+    "category": "Face Of The Year",
+    "nominee": [
+      {
+        "name": "Swaroop Saralkar",
+        "sex": "m"
+      },
+      {
+        "name": "Shashank Chaubey",
+        "sex": "m"
+      },
+      {
+        "name": "Manthan Prajapati",
+        "sex": "m"
+      },
+      {
+        "name": "Harsh Shil",
+        "sex": "m"
+      },
+      {
+        "name": "Vaidehi Shah",
+        "sex": "f"
+      },
+      {
+        "name": "Hetvee Talati",
+        "sex": "f"
+      },
+      {
+        "name": "Shruti Jha",
+        "sex": "f"
+      },
+      {
+        "name": "Nibha Bharati",
+        "sex": "f"
+      }
+    ]
   }
 ]
