@@ -19,21 +19,17 @@ export default function Home({ currentCategoryData, setCurrentCategory }) {
       </div>
 
       <div className="flex flex-row items-center justify-center mt-20">
-        <div className="w-[400px] h-[500px] bg-white my-6 mr-7 border-8 border-white">
-          <img
-            className="w-full h-full"
-            src={"https://picsum.photos/200/300"}
-            alt="image"
-          />
-        </div>
         <div className="flex flex-row flex-wrap justify-center   my-3 w-[50%]">
-          <Card url={"https://picsum.photos/id/137/300/300"} />
-          <Card url={"https://picsum.photos/id/200/300/300"} />
-          <Card url={"https://picsum.photos/id/139/300/300"} />
-          <Card url={"https://picsum.photos/id/140/300/300"} />
-          <Card url={"https://picsum.photos/id/141/300/300"} />
-          <Card url={"https://picsum.photos/id/142/300/300"} />
-          <Card url={"https://picsum.photos/id/143/300/300"} />
+          {currentCategoryData.nominee.map((item, key) => {
+            return (
+              <Card
+                url={`/cid_${
+                  currentCategoryData.cid
+                }/${item.name.toLowerCase()}.jpeg`}
+                name={item.name}
+              />
+            );
+          })}
         </div>
       </div>
     </Layout>

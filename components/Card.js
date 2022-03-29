@@ -1,9 +1,10 @@
 import react from "react";
 
-export const Card = ({ url }) => {
+export const Card = ({ url, name }) => {
   return (
-    <div className="h-[200px] w-[200px] cursor-pointer bg-white m-2 rounded-full overflow-clip shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-      <img className="h-full w-full" src={url} alt="image" />
+    <div className="p-2 m-2 text-center transition duration-300 ease-in-out delay-150 rounded-md shadow-lg cursor-pointer overflow-clip hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
+      <img className="h-[200px] w-[200px] rounded-full" src={url} alt="image" />
+      <div className="mt-2 text-white">{name}</div>
     </div>
   );
 };

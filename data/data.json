@@ -1,7 +1,49 @@
 [
   {
     "cid": 1,
-    "category": "Artist Of The Year"
+    "category": "Artist Of The Year",
+    "nominee": [
+      {
+        "name": "Divyaraj Chauhan",
+        "sex": "m",
+        "image": "https://picsum.photos/id/300/500/300"
+      },
+      {
+        "name": "Jignesh Mahida",
+        "sex": "m",
+        "image": "https://picsum.photos/id/301/500/300"
+      },
+      {
+        "name": "Dhairya Ambore",
+        "sex": "m",
+        "image": "https://picsum.photos/id/302/500/300"
+      },
+      {
+        "name": "Aniket Dey",
+        "sex": "m",
+        "image": "https://picsum.photos/id/310/500/300"
+      },
+      {
+        "name": "Vishali Raina",
+        "sex": "f",
+        "image": "https://picsum.photos/id/304/500/300"
+      },
+      {
+        "name": "Honey Rathod",
+        "sex": "f",
+        "image": "https://picsum.photos/id/305/500/300"
+      },
+      {
+        "name": "Amisha Sakhare",
+        "sex": "f",
+        "image": "https://picsum.photos/id/306/500/300"
+      },
+      {
+        "name": "Anusha Kar",
+        "sex": "f",
+        "image": "https://picsum.photos/id/307/500/300"
+      }
+    ]
   },
 
   {
