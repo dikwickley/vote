@@ -22,12 +22,12 @@ export function Layout({
         <img src="/logo.jpg" className="rounded-full" />
       </div>
 
-      <div className="absolute  flex flex-row justify-center items-center  bg-zinc-900 right-1/2 top-[250px] translate-x-[50%]">
+      <div className="absolute  flex flex-row flex-wrap justify-center items-center  bg-zinc-900 right-1/2 top-[250px] translate-x-[50%] w-full">
         <div
           onClick={() => {
             handleCatergoryChange(0);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Artist Of The Year
         </div>
@@ -35,7 +35,7 @@ export function Layout({
           onClick={() => {
             handleCatergoryChange(1);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Style Icon Of The Year
         </div>
@@ -43,7 +43,7 @@ export function Layout({
           onClick={() => {
             handleCatergoryChange(2);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Rising Star
         </div>
@@ -51,7 +51,7 @@ export function Layout({
           onClick={() => {
             handleCatergoryChange(3);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Sportsperson Of The Year
         </div>
@@ -59,7 +59,7 @@ export function Layout({
           onClick={() => {
             handleCatergoryChange(4);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Innovator Of The Year
         </div>
@@ -67,7 +67,7 @@ export function Layout({
           onClick={() => {
             handleCatergoryChange(5);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Mr. and Mrs. Persona
         </div>
@@ -75,7 +75,7 @@ export function Layout({
           onClick={() => {
             handleCatergoryChange(6);
           }}
-          className="flex justify-center items-center text-2xl p-2 font-mono leading-[1.5rem] text-center  h-[90px] w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+          className="flex justify-center items-center text-sm md:text-2xl p-2 font-mono leading-[1rem] md:leading-[1.5rem] text-center h-[50px] w-[120px] md:h-[90px] md:w-[200px] m-2 cursor-pointer  transition-all duration-500 bg-gradient-to-t to-red-400   via-pink-400 from-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
         >
           Face Of The Year
         </div>
