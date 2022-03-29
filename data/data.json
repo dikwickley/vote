@@ -1,0 +1,31 @@
+[
+  {
+    "cid": 1,
+    "category": "Artist Of The Year"
+  },
+
+  {
+    "cid": 2,
+    "category": "Style Icon Of The Year"
+  },
+  {
+    "cid": 3,
+    "category": "Rising Star"
+  },
+  {
+    "cid": 4,
+    "category": "Sportsperson Of The Year"
+  },
+  {
+    "cid": 5,
+    "category": "Innovator Of The Year"
+  },
+  {
+    "cid": 6,
+    "category": "Mr. and Mrs. Persona"
+  },
+  {
+    "cid": 7,
+    "category": "Face Of The Year"
+  }
+]

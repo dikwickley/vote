@@ -4,22 +4,24 @@ import { Card } from "../components/Card";
 import { Layout } from "../components/Layout";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home({ currentCategoryData, setCurrentCategory }) {
+  console.log(currentCategoryData);
+
   return (
-    <Layout title={"Home"}>
+    <Layout title={"Home"} setCurrentCategory={setCurrentCategory}>
       <div className="h-[300px] bg-gradient-to-br from-pink-400   to-red-600 flex flex-col justify-center items-center">
-        <div className="bg-zinc-900  text-white p-1 px-2 rounded-md text-sm font-bold mb-6">
+        <div className="p-1 px-2 mb-6 text-sm font-bold text-white rounded-md bg-zinc-900">
           Red Carpet Awards
         </div>
-        <div className="font-serif font-extrabold text-6xl text-white">
-          Style Icon of the Year, 2022
+        <div className="font-serif text-6xl font-extrabold text-white">
+          {currentCategoryData.category}
         </div>
       </div>
 
-      <div className="flex flex-row justify-center items-center mt-20">
+      <div className="flex flex-row items-center justify-center mt-20">
         <div className="w-[400px] h-[500px] bg-white my-6 mr-7 border-8 border-white">
           <img
-            className="h-full w-full"
+            className="w-full h-full"
             src={"https://picsum.photos/200/300"}
             alt="image"
           />
